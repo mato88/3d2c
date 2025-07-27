@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Conda environment files
+.env
+.venv/
+*.conda
+*.env
+*.yaml
+
+# VS Code / CodeMix
+.vscode/
+.settings/
+.idea/
+
+# Eclipse project files
+.project
+.classpath
+.c9/
+*.launch
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python-specific
+*.log
+*.bak
+*.swp
+*.swo
+
+# Output files (3D models, etc.)
+*.step
+*.stl
+models/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local test or dev
+*.local
+*.pid
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# PyInstaller
+dist/
+build/
+*.spec
